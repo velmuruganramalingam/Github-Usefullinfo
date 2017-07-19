@@ -15,7 +15,7 @@ Tracked - modified files
 UnTracked - new files. Always unstaged. If staged, that means they are tracked.
 
 ## What each commands do:
-**```git checkout .```** - Removes Unstaged Tracked files ONLY [Type 2]
-**```git clean -f```** - Removes Unstaged UnTracked files ONLY [Type 3]
-**```git reset --hard```** - Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
-**```git stash -u```** - Removes all changes [Type 1, Type 2, Type 3]
+* **```git checkout .```** - Removes Unstaged Tracked files ONLY [Type 2]
+* **```git clean -f```** - Removes Unstaged UnTracked files ONLY [Type 3]
+* **```git reset --hard```** - Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
+* **```git stash -u```** - Removes all changes [Type 1, Type 2, Type 3]
