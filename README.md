@@ -30,13 +30,16 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git push origin <review_branch>  
 
 ## Merging from master into development branch
-    git merge master  
+    git checkout master         |
+    git pull                    |
+    git checkout <dev_branch>   |
+    git merge master            |  git merge origin master(Not yet tried)
     <resolve conflicts in files>  
     git add .  
     git commit -m “<comments>”  
     git push origin <dev_branch>  
 ## Merging from development branch into master
     git checkout master  
-    git merge —squash <dev_branch>  
+    git merge —squash <dev_branch>   
     git commit -am “<comments>”  
     git push  
