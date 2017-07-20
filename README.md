@@ -41,5 +41,6 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 ## Merging from development branch into master
     git checkout master  
     git merge —squash <dev_branch>   
-    git commit -am “<comments>”  
+    git add .  
+    git commit -m “<comments>”  
     git push  
