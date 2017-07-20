@@ -39,7 +39,8 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git commit -m “<comments>”  
     git push origin <dev_branch>  
 ## Merging from development branch into master
-    git checkout master  
+    git checkout master 
+    git pull  
     git merge —squash <dev_branch>   
     git add .  
     git commit -m “<comments>”  
