@@ -43,6 +43,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git checkout master 
     git pull  
     git merge —squash <dev_branch>   
+    git status  
     git add .  
     git commit -m “<comments>”  
     git push  
