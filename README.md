@@ -35,6 +35,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git checkout <dev_branch>   |
     git merge master            |  git merge origin master(Not yet tried)
     <resolve conflicts in files>  
+    git status
     git add .  
     git commit -m “<comments>”  
     git push origin <dev_branch>  
