@@ -19,7 +19,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 * **```git clean -f```** - Removes Unstaged UnTracked files ONLY [Type 3]
 * **```git reset --hard```** - Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
 * **```git stash -u```** - Removes all changes [Type 1, Type 2, Type 3]
-* **```git stash -u```** - shows the list of untracked files that will be deleted
+* **```git clean -n```** - shows the list of untracked files that will be deleted
 * **```git clean -f```** - deletes the untracked files
 
 ## Create review branch
