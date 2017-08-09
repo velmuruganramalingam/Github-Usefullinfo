@@ -25,6 +25,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 
 
 ## Create review branch
+    rake translations:generate  
     git checkout master  
     git pull  
     git checkout -b <review_branch>  
@@ -44,6 +45,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git commit -m “<comments>”  
     git push origin <dev_branch>  
 ## Merging from development branch into master
+    rake translations:generate  
     git checkout master 
     git pull  
     git merge —squash <dev_branch>   
