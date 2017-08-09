@@ -16,11 +16,13 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 
 ## What each commands do:
 * **```git checkout .```** - Removes Unstaged Tracked files ONLY [Type 2]
+* **```git clean -n```** - shows the list of untracked files that will be deleted
 * **```git clean -f```** - Removes Unstaged UnTracked files ONLY [Type 3]
+* **```git reset HEAD <file_name>```** - Moves the file from Staged to Unstaged
 * **```git reset --hard```** - Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
 * **```git stash -u```** - Removes all changes [Type 1, Type 2, Type 3]
-* **```git clean -n```** - shows the list of untracked files that will be deleted
-* **```git clean -f```** - deletes the untracked files
+
+
 
 ## Create review branch
     git checkout master  
