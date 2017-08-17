@@ -53,3 +53,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git add .  
     git commit -m “<comments>”  
     git push  
+ ## Git Stashing
+    git stash  
+    git stash apply  
+    git stash list  
