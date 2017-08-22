@@ -57,3 +57,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git stash  
     git stash apply  
     git stash list  
+    
+ ## Delete branches
+     git push origin --delete <branch_name>  
+     git push origin :<branch_name>  
