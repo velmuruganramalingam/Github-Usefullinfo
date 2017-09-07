@@ -38,10 +38,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git checkout master         |
     git pull                    |
     git checkout <dev_branch>   |
-    git merge master            |  git merge origin master(Not yet tried)
-  #Or alternatively 
-  #This won't update your local master branch.
-    git fetch origin && git merge origin/master  
+    git merge master            |  git fetch origin && git merge origin/master 
     <resolve conflicts in files>  
     git status
     git add .  
