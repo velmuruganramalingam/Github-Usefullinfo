@@ -27,6 +27,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 ## Create review branch
     rake translations:generate  
     git checkout master  
+    git status                      #To check nothing is checked out in master
     git pull  
     git checkout -b <review_branch>  
     git merge --squash <dev_branch>  
@@ -48,9 +49,10 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 ## Merging from development branch into master
     rake translations:generate  
     git checkout master 
+    git status                     #To check nothing is checked out in master
     git pull  
     git merge —squash <dev_branch>   
-    rake site  
+    rake site 
     check for lints, translations and test cases  
     git status  
     git add .  
