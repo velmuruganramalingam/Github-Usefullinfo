@@ -36,6 +36,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
 
 ## Merging from master into development branch
     git checkout master         |
+    git status                  | #To check nothing is checked out in master
     git pull                    |
     git checkout <dev_branch>   |
     git merge master            |  git fetch origin && git merge origin/master 
