@@ -66,3 +66,19 @@ There are 3 kinds of files Staged,Tracked and UnTracked
  ## Delete branches
      git push origin --delete <branch_name>  
      git push origin :<branch_name>  
+  
+ ## Making another branch as base for the code review(Example below)
+     (339-dev) $ git checkout 596-dev
+     (596-dev) $ git pull
+     (596-dev) $ git checkout 339-dev
+     (339-dev) $ git merge 596-dev
+     # resolve conflicts
+     (339-dev) $ git commit -am "Merged 596"
+     (339-dev) $ git push -u
+     (339-dev) $ git checkout 596-dev
+     (596-dev) $ git checkout -b 339-review
+     (339-review) $ git merge --squash 339-dev
+     (339-review) $ git commit -am "Merged for review"
+     (339-review) $ git push -u
+     (339-review) $ git checkout 339-dev
+# go make the code review
