@@ -53,7 +53,7 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git pull  
     git merge —squash <dev_branch>   
     rake site 
-    check for lints, translations and test cases  
+    bundle install 
     git status  
     git add .  
     git commit -m “<comments>”  
