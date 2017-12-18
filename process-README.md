@@ -24,7 +24,7 @@
 
 ## Technical verification
 
-*Technical Verification Complete*
+*Technical Verification Complete*  
 || Item || Met? ||  
 | Deployed to Dev | (/) |  
 | Feature and review branches deleted | (/) |  
