@@ -25,12 +25,12 @@
 ## Technical verification
 
 *Technical Verification Complete*
-|| Item || Met? || 
-| Deployed to Dev | (/) |
-| Feature and review branches deleted | (/) |
-| Review(s) closed, linked to JIRA, all issues addressed | (/) |
-| Jira contains link to squashed merge commit | (/) |
-| Lints and Integration tests are passing | (/) |
-| Fix version for release plan is set on the JIRA | (/) |
-| Component is set on the JIRA | (/) |
+|| Item || Met? ||  
+| Deployed to Dev | (/) |  
+| Feature and review branches deleted | (/) |  
+| Review(s) closed, linked to JIRA, all issues addressed | (/) |  
+| Jira contains link to squashed merge commit | (/) |  
+| Lints and Integration tests are passing | (/) | 
+| Fix version for release plan is set on the JIRA | (/) |  
+| Component is set on the JIRA | (/) |  
 
