@@ -34,3 +34,6 @@
 | Fix version for release plan is set on the JIRA | (/) |  
 | Component is set on the JIRA | (/) |  
 
+## Model JIRA for Alter commands
+
+https://jira2.cerner.com/browse/HIINFRA-3544  
