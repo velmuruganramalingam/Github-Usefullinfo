@@ -47,7 +47,8 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git commit -m “<comments>”  
     git push origin <dev_branch>  
 ## Merging from development branch into master
-    rake translations:generate  
+    Close the review   
+    rake translations:generate  
     git checkout master 
     git status                     #To check nothing is checked out in master
     git pull  
@@ -57,7 +58,9 @@ There are 3 kinds of files Staged,Tracked and UnTracked
     git status  
     git add .  
     git commit -m “<comments>”  
-    git push  
+    git push  
+    rake docker:deploy  
+    Move the JIRA to Engineering Complete  
  ## Git Stashing
     git stash  
     git stash apply  
