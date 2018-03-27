@@ -20,8 +20,10 @@ alias ght="git status"
 alias rtg="rake translations:generate"
 alias gcm="git checkout master"
 alias gpu="git pull"
+alias gpo="git push origin HEAD"
 alias dsps="DB=cost_accounting_service DB_HOST=database.devhealtheintent.net DB_USERNAME=cost_acct_svc DB_PASSWORD=Ya2recret23sazUkus5Ay7B88Ruspeda rails s -p 3001"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+alias japs="COST_ACCOUNTING_SERVICE_URI=http://cost_accounting_service-dj.us.devhealtheintent.net rails s"
 
 ## alias for OAUTH
-alias oauth-dev="java -jar /Users/ab035336/Downloads/auth-header-1.4.jar -k db2b285e-02e6-43db-b2ae-361aba8da88f -s uxwVsNBEChEh37J1YHSH02duJ19Pq45T -c"
+alias auth="java -jar /Users/vr040462/Project/lib/auth-header-1.4.jar -k db2b285e-02e6-43db-b2ae-361aba8da88f -s uxwVsNBEChEh37J1YHSH02duJ19Pq45T -c"
