@@ -34,11 +34,3 @@
 | Fix version for release plan is set on the JIRA | (/) |  
 | Component is set on the JIRA | (/) |  
 
-## Model JIRA for Alter commands
-
-https://jira2.cerner.com/browse/HIINFRA-3544  
-
-## Process to get the Dev Access
-
-https://github.cerner.com/hi-infra/healthe_intent_survival_guide/blob/master/mesos/journey/getting_access.md#for-an-individual 
-
